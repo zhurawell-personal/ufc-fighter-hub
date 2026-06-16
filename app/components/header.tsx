@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { fightersRoute } from "@/lib/routes";
 
 export default function Header() {
   return (
@@ -15,6 +16,11 @@ export default function Header() {
 
         <nav>
           <ul className="flex flex-wrap gap-10 text-lg font-medium">
+            <li>
+              <Link href={fightersRoute} className="hover:text-red-500 transition-colors duration-200">
+                Fighters
+              </Link>
+            </li>
             <li>
               <Link href="/compare" className="hover:text-red-500 transition-colors duration-200">
                 Compare
