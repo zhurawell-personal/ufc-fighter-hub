@@ -1,27 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
+import fightersData from "@/data/fighters.json";
+import type { Fighter } from "@/lib/types";
+import { fighterRoute } from "@/lib/routes";
 
-const featuredFighters = [
-  {
-    name: "Valentina Shevchenko",
-    weightClass: "Flyweight",
-    record: "23-3",
-  },
-  {
-    name: "Islam Makhachev",
-    weightClass: "Lightweight",
-    record: "24-1",
-  },
-  {
-    name: "Israel Adesanya",
-    weightClass: "Middleweight",
-    record: "24-3",
-  },
-];
+const featuredFighters = (fightersData as Fighter[]).slice(0, 3);
 
 export default function Page() {
   return (
-    <main className="bg-[#050505] text-white">
+    <div className="bg-[#050505] text-white">
       <section className="relative overflow-hidden bg-gray-800 py-24">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black">
         <Image
@@ -85,13 +72,17 @@ export default function Page() {
           </div>
 
           <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
-            {featuredFighters.map((fighter) => (
-              <div key={fighter.name} className="rounded-3xl bg-white/5 p-5 shadow-[0_20px_60px_rgba(0,0,0,0.25)]">
+            {featuredFighters.map((fighter: Fighter) => (
+              <Link
+                key={fighter.id}
+                href={fighterRoute(fighter.id)}
+                className="flex flex-col justify-between rounded-3xl border border-white/10 bg-white/5 p-5 text-left transition hover:border-red-500 hover:bg-white/10"
+              >
                 <div className="mb-5 aspect-square rounded-3xl bg-gray-700" />
                 <h3 className="text-xl font-semibold">{fighter.name}</h3>
                 <p className="mt-2 text-sm text-slate-400">{fighter.weightClass}</p>
-                <p className="mt-3 text-sm font-semibold text-red-500">{fighter.record}</p>
-              </div>
+                <p className="mt-3 text-sm font-semibold text-red-500">{fighter.record.wins}-{fighter.record.losses}-{fighter.record.draws}</p>
+              </Link>
             ))}
 
             <Link
@@ -127,6 +118,6 @@ export default function Page() {
           </Link>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "jon-jones",
+    "name": "Jon Jones",
+    "nickname": "Bones",
+    "weightClass": "Heavyweight",
+    "record": { "wins": 27, "losses": 1, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 49,
+      "takedownAccuracy": 45,
+      "takedownDefense": 77,
+      "reach": 84,
+      "height": 76
+    },
+    "recentFights": [
+      { "opponent": "Ciryl Gane", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Stipe Miocic", "result": "win", "method": "KO", "round": 1 },
+      { "opponent": "Francis Ngannou", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "francis-ngannou",
+    "name": "Francis Ngannou",
+    "nickname": "The Predator",
+    "weightClass": "Heavyweight",
+    "record": { "wins": 17, "losses": 3, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 58,
+      "takedownAccuracy": 33,
+      "takedownDefense": 65,
+      "reach": 83,
+      "height": 77
+    },
+    "recentFights": [
+      { "opponent": "Ciryl Gane", "result": "loss", "method": "Decision", "round": 5 },
+      { "opponent": "Stipe Miocic", "result": "win", "method": "KO", "round": 2 },
+      { "opponent": "Junior dos Santos", "result": "win", "method": "KO", "round": 1 }
+    ]
+  },
+  {
+    "id": "alex-pereira",
+    "name": "Alex Pereira",
+    "nickname": "Poatan",
+    "weightClass": "Light Heavyweight",
+    "record": { "wins": 7, "losses": 2, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 55,
+      "takedownAccuracy": 30,
+      "takedownDefense": 60,
+      "reach": 77,
+      "height": 75
+    },
+    "recentFights": [
+      { "opponent": "Jamahal Hill", "result": "win", "method": "KO", "round": 1 },
+      { "opponent": "Jiri Prochazka", "result": "loss", "method": "Submission", "round": 2 },
+      { "opponent": "Jamahal Hill", "result": "win", "method": "KO", "round": 1 }
+    ]
+  },
+  {
+    "id": "jamahal-hill",
+    "name": "Jamahal Hill",
+    "nickname": "Sweet Dreams",
+    "weightClass": "Light Heavyweight",
+    "record": { "wins": 12, "losses": 2, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 50,
+      "takedownAccuracy": 32,
+      "takedownDefense": 55,
+      "reach": 79,
+      "height": 78
+    },
+    "recentFights": [
+      { "opponent": "Alex Pereira", "result": "loss", "method": "KO", "round": 1 },
+      { "opponent": "Magomed Ankalaev", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Johnny Walker", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "israel-adesanya",
+    "name": "Israel Adesanya",
+    "nickname": "The Last Stylebender",
+    "weightClass": "Middleweight",
+    "record": { "wins": 24, "losses": 3, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 49,
+      "takedownAccuracy": 49,
+      "takedownDefense": 72,
+      "reach": 80,
+      "height": 76
+    },
+    "recentFights": [
+      { "opponent": "Alex Pereira", "result": "loss", "method": "KO", "round": 2 },
+      { "opponent": "Sean Strickland", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Robert Whittaker", "result": "win", "method": "KO", "round": 2 }
+    ]
+  },
+  {
+    "id": "robert-whittaker",
+    "name": "Robert Whittaker",
+    "nickname": "The Reaper",
+    "weightClass": "Middleweight",
+    "record": { "wins": 24, "losses": 7, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 48,
+      "takedownAccuracy": 42,
+      "takedownDefense": 73,
+      "reach": 74,
+      "height": 72
+    },
+    "recentFights": [
+      { "opponent": "Dricus du Plessis", "result": "loss", "method": "Submission", "round": 2 },
+      { "opponent": "Paulo Costa", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Darren Till", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "dricus-du-plessis",
+    "name": "Dricus du Plessis",
+    "nickname": "Stillknocks",
+    "weightClass": "Middleweight",
+    "record": { "wins": 22, "losses": 2, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 54,
+      "takedownAccuracy": 56,
+      "takedownDefense": 70,
+      "reach": 72,
+      "height": 72
+    },
+    "recentFights": [
+      { "opponent": "Robert Whittaker", "result": "win", "method": "Submission", "round": 2 },
+      { "opponent": "Marvin Vettori", "result": "win", "method": "KO", "round": 1 },
+      { "opponent": "Sean Strickland", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "kamaru-usman",
+    "name": "Kamaru Usman",
+    "nickname": "The Nigerian Nightmare",
+    "weightClass": "Welterweight",
+    "record": { "wins": 21, "losses": 3, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 53,
+      "takedownAccuracy": 42,
+      "takedownDefense": 76,
+      "reach": 76,
+      "height": 73
+    },
+    "recentFights": [
+      { "opponent": "Leon Edwards", "result": "loss", "method": "Decision", "round": 5 },
+      { "opponent": "Jorge Masvidal", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Colby Covington", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "leon-edwards",
+    "name": "Leon Edwards",
+    "nickname": "Rocky",
+    "weightClass": "Welterweight",
+    "record": { "wins": 22, "losses": 3, "draws": 1 },
+    "stats": {
+      "strikingAccuracy": 52,
+      "takedownAccuracy": 38,
+      "takedownDefense": 78,
+      "reach": 72,
+      "height": 73
+    },
+    "recentFights": [
+      { "opponent": "Kamaru Usman", "result": "win", "method": "KO", "round": 5 },
+      { "opponent": "Kamaru Usman", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Nate Diaz", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "jorge-masvidal",
+    "name": "Jorge Masvidal",
+    "nickname": "Gamebred",
+    "weightClass": "Welterweight",
+    "record": { "wins": 35, "losses": 16, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 48,
+      "takedownAccuracy": 42,
+      "takedownDefense": 62,
+      "reach": 74,
+      "height": 71
+    },
+    "recentFights": [
+      { "opponent": "Gilbert Burns", "result": "loss", "method": "Decision", "round": 5 },
+      { "opponent": "Nate Diaz", "result": "loss", "method": "Split Decision", "round": 5 },
+      { "opponent": "Ben Askren", "result": "win", "method": "KO", "round": 1 }
+    ]
+  },
+  {
+    "id": "islam-makhachev",
+    "name": "Islam Makhachev",
+    "nickname": "The Highlight",
+    "weightClass": "Lightweight",
+    "record": { "wins": 24, "losses": 1, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 54,
+      "takedownAccuracy": 62,
+      "takedownDefense": 85,
+      "reach": 70,
+      "height": 70
+    },
+    "recentFights": [
+      { "opponent": "Charles Oliveira", "result": "win", "method": "Submission", "round": 2 },
+      { "opponent": "Alexander Volkanovski", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Bobby Green", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "charles-oliveira",
+    "name": "Charles Oliveira",
+    "nickname": "Do Bronx",
+    "weightClass": "Lightweight",
+    "record": { "wins": 34, "losses": 10, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 43,
+      "takedownAccuracy": 57,
+      "takedownDefense": 62,
+      "reach": 74,
+      "height": 71
+    },
+    "recentFights": [
+      { "opponent": "Islam Makhachev", "result": "loss", "method": "Submission", "round": 2 },
+      { "opponent": "Beneil Dariush", "result": "win", "method": "Submission", "round": 4 },
+      { "opponent": "Paddy Pimblett", "result": "win", "method": "Decision", "round": 3 }
+    ]
+  },
+  {
+    "id": "dustin-poirier",
+    "name": "Dustin Poirier",
+    "nickname": "The Diamond",
+    "weightClass": "Lightweight",
+    "record": { "wins": 29, "losses": 8, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 47,
+      "takedownAccuracy": 38,
+      "takedownDefense": 72,
+      "reach": 72,
+      "height": 70
+    },
+    "recentFights": [
+      { "opponent": "Michael Chandler", "result": "loss", "method": "KO", "round": 1 },
+      { "opponent": "Justin Gaethje", "result": "loss", "method": "Decision", "round": 5 },
+      { "opponent": "Conor McGregor", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "ilia-topuria",
+    "name": "Ilia Topuria",
+    "nickname": "El Matador",
+    "weightClass": "Featherweight",
+    "record": { "wins": 14, "losses": 0, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 52,
+      "takedownAccuracy": 48,
+      "takedownDefense": 77,
+      "reach": 69,
+      "height": 71
+    },
+    "recentFights": [
+      { "opponent": "Yair Rodriguez", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Josh Emmett", "result": "win", "method": "KO", "round": 1 },
+      { "opponent": "Alexander Volkanovski", "result": "win", "method": "Decision", "round": 5 }
+    ]
+  },
+  {
+    "id": "alexander-volkanovski",
+    "name": "Alexander Volkanovski",
+    "nickname": "The Great",
+    "weightClass": "Featherweight",
+    "record": { "wins": 26, "losses": 2, "draws": 0 },
+    "stats": {
+      "strikingAccuracy": 54,
+      "takedownAccuracy": 44,
+      "takedownDefense": 84,
+      "reach": 71,
+      "height": 67
+    },
+    "recentFights": [
+      { "opponent": "Ilia Topuria", "result": "loss", "method": "Decision", "round": 5 },
+      { "opponent": "Yair Rodriguez", "result": "win", "method": "Decision", "round": 5 },
+      { "opponent": "Chan Sung Jung", "result": "win", "method": "Submission", "round": 4 }
+    ]
+  }
+]
